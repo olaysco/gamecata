@@ -4,7 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Game extends Model
+class Multiplayer extends Model
 {
     /**
      * The attributes that should be guided
@@ -20,10 +20,6 @@ class Game extends Model
      */
     protected $hidden = [
         'created_at',
+        'updated_at'
     ];
-
-    public function gameplays()
-    {
-        return $this->hasMany('App\Gameplay');
-    }
 }

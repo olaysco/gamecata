@@ -20,5 +20,11 @@ class Gameplay extends Model
      */
     protected $hidden = [
         'created_at',
+        'updated_at'
     ];
+
+    public function player()
+    {
+        return $this->belongsTo('App\Player');
+    }
 }

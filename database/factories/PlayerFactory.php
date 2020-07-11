@@ -19,6 +19,10 @@ use Faker\Generator as Faker;
 $factory->define(Player::class, function (Faker $faker) {
     return [
         'name' => $faker->name,
-        'email' => $faker->email,
+        'email' => $faker->unique()->email,
+        'nickname' => $faker->firstName,
+        'password' => '$10$TKh8H1.PfQx37YgCzwiKb.KjNyWgaHb9cbcoQgdIVFlYg7B77UdFm',
+        'date_joined' => $faker->dateTimeBetween('-10years'),
+        'last_login' => $faker->dateTimeThisYear
     ];
 });

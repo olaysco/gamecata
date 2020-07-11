@@ -1,91 +1,229 @@
 {
     "Call of Duty": [
-        { "year": "2010", "title": "Black Ops" },
+        { "year": "2010", "version": "Black Ops" },
         {
             "year": "2011",
-            "title": "Modern Warfare 3"
+            "version": "Modern Warfare 3"
         },
         {
             "year": "2012",
-            "title": "Black Ops II"
+            "version": "Black Ops II"
         },
         {
             "year": "2013",
-            "title": "Ghosts"
+            "version": "Ghosts"
         },
         {
             "year": "2014",
-            "title": "Advanced Warfare "
+            "version": "Advanced Warfare "
         },
         {
             "year": "2015",
-            "title": "Black Ops II"
+            "version": "Black Ops II"
         },
         {
             "year": "2016",
-            "title": "Modern Warfare Remastered "
+            "version": "Modern Warfare Remastered "
         },
         {
             "year": "2017",
-            "title": "WWII"
+            "version": "WWII"
         },
         {
             "year": "2018",
-            "title": "Black Ops 4"
+            "version": "Black Ops 4"
         },
         {
             "year": "2019",
-            "title": "Mobile"
+            "version": "Mobile"
         },
         {
             "year": "2020",
-            "title": " Modern Warfare 2 Campaign Remastered"
+            "version": " Modern Warfare 2 Campaign Remastered"
+        }
+    ],
+    "Mortal Kombat": [
+        {
+            "year": "2010",
+            "version": "Mortal Kombat 2010"
+        },
+        {
+            "year": "2011",
+            "version": "Mortal Kombat Arcade Kollection"
+        },
+        {
+            "year": "2012",
+            "version": "Mortal Kombat Arcade Kollection"
+        },
+        {
+            "year": "2013",
+            "version": "Mortal Kombat Arcade Kollection"
+        },
+        {
+            "year": "2014",
+            "version": "Mortal Kombat Arcade Kollection"
+        },
+        {
+            "year": "2015",
+            "version": "Mortal Kombat X"
+        },
+        {
+            "year": "2016",
+            "version": "Mortal Kombat 11"
+        },
+        {
+            "year": "2017",
+            "version": "Mortal Kombat 2017"
+        },
+        {
+            "year": "2018",
+            "version": "Mortal Kombat2018X"
+        },
+        {
+            "year": "2019",
+            "version": "Mortal Kombat 2019"
+        },
+        {
+            "year": "2020",
+            "version": "Mortal Kombat 2020"
         }
     ],
     "FIFA": [
         {
             "year": "2010",
-            "title": "FiFA 10"
+            "version": "FiFA 10"
         },
         {
             "year": "2011",
-            "title": "FiFA 11"
+            "version": "FiFA 11"
         },
         {
             "year": "2012",
-            "title": "FiFA 12"
+            "version": "FiFA 12"
         },
         {
             "year": "2013",
-            "title": "FiFA 13"
+            "version": "FiFA 13"
         },
         {
             "year": "2014",
-            "title": "FiFA 14"
+            "version": "FiFA 14"
         },
         {
             "year": "2015",
-            "title": "FiFA 15"
+            "version": "FiFA 15"
         },
         {
             "year": "2016",
-            "title": "FiFA 16"
+            "version": "FiFA 16"
         },
         {
             "year": "2017",
-            "title": "FiFA 17"
+            "version": "FiFA 17"
         },
         {
             "year": "2018",
-            "title": "FiFA 18"
+            "version": "FiFA 18"
         },
         {
             "year": "2019",
-            "title": "FiFA 19"
+            "version": "FiFA 19"
         },
         {
             "year": "2020",
-            "title": "FiFA 20"
+            "version": "FiFA 20"
+        }
+    ],
+    "Just Cause": [
+        {
+            "year": "2010",
+            "version": "Just Cause 10"
+        },
+        {
+            "year": "2011",
+            "version": "Just Cause 11"
+        },
+        {
+            "year": "2012",
+            "version": "Just Cause 12"
+        },
+        {
+            "year": "2013",
+            "version": "Just Cause 13"
+        },
+        {
+            "year": "2014",
+            "version": "Just Cause 14"
+        },
+        {
+            "year": "2015",
+            "version": "Just Cause 15"
+        },
+        {
+            "year": "2016",
+            "version": "Just Cause 16"
+        },
+        {
+            "year": "2017",
+            "version": "Just Cause 17"
+        },
+        {
+            "year": "2018",
+            "version": "Just Cause 18"
+        },
+        {
+            "year": "2019",
+            "version": "Just Cause 19"
+        },
+        {
+            "year": "2020",
+            "version": "Just Cause 20"
+        }
+    ],
+    "Apex Legend": [
+        {
+            "year": "2010",
+            "version": "Apex Legend 10"
+        },
+        {
+            "year": "2011",
+            "version": "Apex Legend 11"
+        },
+        {
+            "year": "2012",
+            "version": "Apex Legend 12"
+        },
+        {
+            "year": "2013",
+            "version": "Apex Legend 13"
+        },
+        {
+            "year": "2014",
+            "version": "Apex Legend 14"
+        },
+        {
+            "year": "2015",
+            "version": "Apex Legend 15"
+        },
+        {
+            "year": "2016",
+            "version": "Apex Legend 16"
+        },
+        {
+            "year": "2017",
+            "version": "Apex Legend 17"
+        },
+        {
+            "year": "2018",
+            "version": "Apex Legend 18"
+        },
+        {
+            "year": "2019",
+            "version": "Apex Legend 19"
+        },
+        {
+            "year": "2020",
+            "version": "Apex Legend 20"
         }
     ]
 }

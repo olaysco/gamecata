@@ -18,7 +18,8 @@ use Faker\Generator as Faker;
 
 $factory->define(Game::class, function (Faker $faker) {
     return [
-        'name' => $faker->name,
-        'email' => $faker->email,
+        "name" => '',
+        "version" => '',
+        "date_added" => ''
     ];
 });

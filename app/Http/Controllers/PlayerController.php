@@ -9,6 +9,11 @@ use Illuminate\Http\Request;
 
 class PlayerController extends Controller
 {
+
+    public function home()
+    {
+        return view('welcome');
+    }
     /**
      * Return all players and their gameplay
      *

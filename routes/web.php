@@ -2,9 +2,7 @@
 
 /** @var \Laravel\Lumen\Routing\Router $router */
 
-$router->get('/', function () use ($router) {
-    return 'welcome to game catalogue';
-});
+$router->get('/', 'PlayerController@home');
 
 $router->group(['prefix' => 'api'], function () use ($router) {
     $router->get('games', 'GameController@index');

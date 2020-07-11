@@ -1,6 +1,6 @@
 # Game Catalogue API
 
->
+> https://game-cata.herokuapp.com/
 
 ## Deploying locally
 > To deploy ensure you have **Docker** and Docker compose installed

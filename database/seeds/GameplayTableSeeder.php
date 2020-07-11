@@ -17,8 +17,8 @@ class GameplayTableSeeder extends Seeder
         $allGames = app('db')->select("SELECT date_added as date FROM games");
         $totalPlayers = app('db')->select("SELECT COUNT(id) as count FROM players");
         $totalGames = count($allGames);
-        for ($i = 0; $i < 100; $i++) {  //non multiplayer games
-            for ($j = 0; $j < 10; $j++) {
+        for ($i = 0; $i < 3000; $i++) {  //non multiplayer games
+            for ($j = 0; $j < 100; $j++) {
                 $gamePlaying = rand(1, $totalGames);
                 $randomYear = rand(intval(explode('-', $allGames[8]->date)[0]), 2020) . '-05-05';
                 $playerId = rand(1, $totalPlayers[0]->count);
@@ -26,8 +26,8 @@ class GameplayTableSeeder extends Seeder
             }
         }
 
-        for ($i = 0; $i < 35; $i++) {  //multiplayer games
-            for ($j = 1; $j < 5; $j++) {
+        for ($i = 0; $i < 835; $i++) {  //multiplayer games
+            for ($j = 1; $j < 50; $j++) {
                 $gamePlaying = rand(1, $totalGames);
                 $randomYear = rand(intval(explode('-', $allGames[8]->date)[0]), 2020) . '-05-05';
                 $playerId = rand(1, $totalPlayers[0]->count);

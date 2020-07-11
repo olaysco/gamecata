@@ -14,14 +14,14 @@ class RouteTest extends TestCase
     public function testAllRoutes()
     {
         $this->checkRoute("/games");
-        $this->checkRoute("/palyers");
+        $this->checkRoute("/players");
         $this->checkRoute("/gameplays");
         $this->checkRoute("/gameplays/2020");
     }
 
     public function checkRoute($route)
     {
-        $this->get($route);
+        $this->get('/api' . $route);
         $this->assertNotEquals(
             404,
             $this->response->status()

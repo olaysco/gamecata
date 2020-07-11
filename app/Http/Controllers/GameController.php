@@ -7,19 +7,9 @@ use Illuminate\Http\Response;
 class GameController extends Controller
 {
     /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        //
-    }
-
-    /**
      * Return all games
      *
-     * @return json
+     * @return Illuminate\Http\Response
      */
     public function index()
     {

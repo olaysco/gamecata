@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class PlayersTableSeeder extends Seeder
 {
@@ -11,8 +12,13 @@ class PlayersTableSeeder extends Seeder
      */
     public function run()
     {
-        for ($i = 0; $i < 100; $i++) {
-            factory(App\Player::class, 100)->create();
+        $id = 1;
+        for ($i = 1; $i < 100;) {
+            for($j = 1; $j < 100; $j++){
+                factory(App\Player::class)->create(
+                    ['id'=> $id++]
+                );
+            }
         }
     }
 }

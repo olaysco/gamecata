@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
 
 class DatabaseSeeder extends Seeder
 {
@@ -11,8 +12,10 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call('GamesTableSeeder');
+        ini_set('memory_limit', '2012M');
+        DB::disableQueryLog();
+        // $this->call('GamesTableSeeder');
         $this->call('PlayersTableSeeder');
-        $this->call('GameplayTableSeeder');
+        // $this->call('GameplayTableSeeder');
     }
 }

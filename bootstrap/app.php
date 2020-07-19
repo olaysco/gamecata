@@ -1,7 +1,9 @@
 <?php
 
 require_once __DIR__ . '/../vendor/autoload.php';
-define('LUMEN_RUN', microtime(true));
+if (!defined('LUMEN_RUN')) {
+    define('LUMEN_RUN', microtime(true));
+}
 
 (new Laravel\Lumen\Bootstrap\LoadEnvironmentVariables(
     dirname(__DIR__)
